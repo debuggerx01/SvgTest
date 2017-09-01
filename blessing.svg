@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024mm"
+   height="256mm"
+   viewBox="0 0 1024 256"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="blessing.svg"
+   inkscape:version="0.92.1 r15371">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4614"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4612" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4519">
+      <stop
+         style="stop-color:#6c5d53;stop-opacity:1;"
+         offset="0"
+         id="stop4515" />
+      <stop
+         style="stop-color:#6c5d53;stop-opacity:0;"
+         offset="1"
+         id="stop4517" />
+    </linearGradient>
+    <filter
+       inkscape:label="Ripple"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Horizontal rippling of edges"
+       style="color-interpolation-filters:sRGB;"
+       id="filter3692">
+      <feTurbulence
+         numOctaves="1"
+         baseFrequency="0.002 0.107"
+         id="feTurbulence3686" />
+      <feColorMatrix
+         values="2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0.5"
+         result="result91"
+         id="feColorMatrix3688" />
+      <feDisplacementMap
+         yChannelSelector="A"
+         xChannelSelector="R"
+         scale="14.3"
+         in="SourceGraphic"
+         in2="result91"
+         id="feDisplacementMap3690" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4519"
+       id="linearGradient4521"
+       x1="525.03253"
+       y1="178.76433"
+       x2="521.72528"
+       y2="535.125"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4614"
+       id="linearGradient4616"
+       x1="454.55991"
+       y1="179.17773"
+       x2="957.65369"
+       y2="179.17773"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.8089482,0,0,1.0011383,145.14548,-3.5112467)" />
+    <filter
+       inkscape:label="Neon"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Neon light effect"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4704">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur4682" />
+      <feComposite
+         in="result1"
+         in2="result1"
+         result="result4"
+         operator="in"
+         id="feComposite4684" />
+      <feGaussianBlur
+         stdDeviation="7"
+         result="result6"
+         in="result4"
+         id="feGaussianBlur4686" />
+      <feComposite
+         operator="over"
+         in="result6"
+         in2="result4"
+         result="result8"
+         id="feComposite4688" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite4690" />
+      <feSpecularLighting
+         specularExponent="45"
+         specularConstant="2"
+         surfaceScale="2.5"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="fbSourceGraphic"
+         id="feSpecularLighting4694">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight4692" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite4696" />
+      <feComposite
+         k3="1.5"
+         k2="1.2"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite4698" />
+      <feComposite
+         operator="over"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite4700" />
+      <feBlend
+         mode="screen"
+         in2="result9"
+         id="feBlend4702" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="1306.7467"
+     inkscape:cy="414.02512"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-page="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3680" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-41)">
+    <rect
+       id="rect3684"
+       width="1000.0222"
+       height="252.6927"
+       x="10.748698"
+       y="44.307297"
+       style="fill:url(#linearGradient4521);fill-opacity:1;stroke:#c8beb7;stroke-width:0.26458332;filter:url(#filter3692)"
+       ry="1.6536459" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4529"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4531"><rect
+           id="rect4533"
+           width="671.875"
+           height="625"
+           x="406.25"
+           y="245.68408" /></flowRegion><flowPara
+         id="flowPara4535"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4553"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4555"><rect
+           id="rect4557"
+           width="243.75"
+           height="281.25"
+           x="356.25"
+           y="176.93408" /></flowRegion><flowPara
+         id="flowPara4559"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4561"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4563"><rect
+           id="rect4565"
+           width="62.5"
+           height="53.125"
+           x="490.625"
+           y="342.55908" /></flowRegion><flowPara
+         id="flowPara4567"></flowPara></flowRoot>    <g
+       id="g4582"
+       style="filter:url(#filter4704)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,0,41)"
+         style="font-style:normal;font-weight:normal;font-size:600.00063825px;line-height:124%;font-family:'Wingdings 3';letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:'Wingdings 3, ';font-stretch:normal;font-variant:normal;"
+         id="flowRoot4545"
+         xml:space="preserve"><flowRegion
+           style="font-size:600.00063825px;line-height:124%;-inkscape-font-specification:'Wingdings 3, ';font-family:'Wingdings 3';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;fill:#e3e2db;"
+           id="flowRegion4547"><rect
+             style="font-size:600.00063825px;line-height:124%;-inkscape-font-specification:'Wingdings 3, ';font-family:'Wingdings 3';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;fill:#e3e2db;"
+             y="130.05908"
+             x="309.375"
+             height="718.75"
+             width="690.625"
+             id="rect4549" /></flowRegion><flowPara
+           style="-inkscape-font-specification:NanumGothic;font-family:NanumGothic;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;line-height:128%;text-anchor:middle;text-align:center;font-size:600.00063825px;fill:#e3e2db;"
+           id="flowPara4551">福</flowPara></flowRoot>      <g
+         id="g4574">
+        <ellipse
+           style="fill:none;stroke:#c8beb7;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none"
+           id="path4569"
+           cx="177.58501"
+           cy="171.80251"
+           rx="99.632164"
+           ry="97.151695" />
+      </g>
+    </g>
+    <rect
+       style="opacity:0.95;fill:url(#linearGradient4616);fill-opacity:1;stroke:#c8beb7;stroke-width:6.29949093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:9.5;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
+       id="rect4610"
+       width="401.31418"
+       height="105.12601"
+       x="515.6922"
+       y="123.30744"
+       ry="18.098858" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4662"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       transform="matrix(0.30927411,0,0,0.31643762,-71.27838,34.830856)"><flowRegion
+         id="flowRegion4664"
+         style="fill:#808080;"><rect
+           id="rect4666"
+           width="1297.099"
+           height="236.43883"
+           x="2057.2388"
+           y="421.76105"
+           style="fill:#808080;" /></flowRegion><flowPara
+         id="flowPara4668"
+         style="font-size:192px;fill:#808080;">活动已结束</flowPara></flowRoot>  </g>
+</svg>
